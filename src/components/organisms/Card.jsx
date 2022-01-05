@@ -1,11 +1,10 @@
-import React from 'react' 
+import React from 'react'
 
-const Card = () => { 
+const Card = () => {
 
-    /* LOGICA DE JAVASCRIPT */ 
+    /* LOGICA DE JAVASCRIPT */
 
     return(
-        
         <div>
             <div className="cards-list">
                 <div className="card">
@@ -18,10 +17,6 @@ const Card = () => {
                 </div>
             </div>
         </div>
-<<<<<<< HEAD
-        
-=======
->>>>>>> d6dfb7bb680688609f69123a35269514c9f7d0d1
     )
 }
 export default Card
