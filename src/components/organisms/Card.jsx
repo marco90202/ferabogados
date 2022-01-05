@@ -18,7 +18,10 @@ const Card = () => {
                 </div>
             </div>
         </div>
+<<<<<<< HEAD
         
+=======
+>>>>>>> d6dfb7bb680688609f69123a35269514c9f7d0d1
     )
 }
 export default Card
