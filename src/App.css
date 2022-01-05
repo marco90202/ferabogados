@@ -6,7 +6,7 @@
   /* Stick to the top */
   position: sticky;
   top: 0;
-  background: yellow;
+  background:#14547c;
 }
 
 .nav {
@@ -17,13 +17,13 @@
 .nav_item {
   list-style: none;
   display: inline;
-  background: green;
+  background:#14547c;
   padding-right: 5rem;
   padding-left: 5rem;
 }
 
 .nav_item:hover {
-  background: red;
+  background:#749ab4;
 }
 
 .color-letra {
