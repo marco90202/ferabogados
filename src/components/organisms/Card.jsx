@@ -16,6 +16,12 @@ const Card = () => {
                     <p>Card Title</p>
                     </div>
                 </div>
+
+                <div className="container">
+                    <div className='front_card'>
+                        <p>Derecho civil patrimonial y extrapatrimonial</p>
+                    </div>
+                </div>
             </div>
         </div>
         
