@@ -19,6 +19,7 @@
   list-style: none;
   display: inline;
   background: #14547c;
+  padding: 25px;
 }
 
 .nav_item:hover {
@@ -40,8 +41,16 @@
   flex-wrap: wrap;
 }
 
+.box {
+  position: relative;
+  bottom: 50px;
+  right: 100px;
+}
 
-
+.box2 {
+  position: relative;
+  top:20px;
+}
 
 
 
@@ -53,10 +62,7 @@
   width: 300px;
   height: 300px;
   border-radius: 10px;
-  border-top-style: solid;
-  border-bottom-style: solid;
-  border-right-style: solid;
-  border-left-style: solid;
+  border: 4px solid;
 
   /* box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22); */
   cursor: pointer;
@@ -132,8 +138,8 @@
 
 
 .card:hover {
-  transform: scale(0.9, 0.9);
-  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25),
+  transform: scale(1.005, 1.005);
+  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
     -5px -5px 30px 15px rgba(0,0,0,0.22);
 }
 
@@ -150,4 +156,22 @@
     /* On small screens, we are no longer using row direction but column */
     flex-direction: column;
   }
+}
+
+
+.container {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  border: 2px solid;
+  border-radius: 5px;
+  background: #14547c;
+
+}
+
+.front_card {
+  text-align: center;
+  margin-top: 130px;
+  color: white;
+  font-weight: bold;
 }
