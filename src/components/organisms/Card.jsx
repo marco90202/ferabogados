@@ -13,12 +13,11 @@ const Card = () => {
                         <img src="https://delgadoabogados.pe/wp-content/uploads/2021/08/logo-1-transparente.png"  alt="errorimg"  />
                     </div>
                     <div className="card_title title-black">
-                    <p>Card Title</p>
-                    </div>
-                </div>
-
-                <div className="container">
-                    <div className='front_card'>
+                        <p>card title</p>
+                     </div>
+                      </div>
+                     <div className="container">
+                        <div className='front_card'>
                         <p>Derecho civil patrimonial y extrapatrimonial</p>
                     </div>
                 </div>
