@@ -12,7 +12,7 @@ const Header = () => {
                 <ul className="menu_items">
                     <li className="active"><a href="https://www.instagram.com">inicio</a></li>
                     <li><a href='https://www.google.com'>acerca</a></li>
-                    <li><a href='www.youtube.com'>servivios</a></li>
+                    <li><a href='www.youtube.com'>servicios</a></li>
                     <li><a href='www.facebook.com'>contactenos</a></li>
                     
                 </ul>
