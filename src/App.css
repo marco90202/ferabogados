@@ -12,7 +12,11 @@
   align-items: center;
   border-bottom: 1px solid #fff;
   box-shadow: 5px 0 10px rgba(0,0,0,0.6);
-
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  
 }
 
 .logo {
@@ -26,10 +30,13 @@
   display: flex;
   list-style: none;
   margin-right: 30px;
+  margin-top: 20;
+  
 }
 .menu_items li {
   border-radius: 3px;
   margin: 0 5px;
+  
 }
 
 .menu_items li a{
@@ -39,8 +46,16 @@
   display: block;
   text-transform: uppercase;
   color: #fff;
+  
 }
-
+.menu_items li:hover {
+  background-color: rgba(0,0,0,0.3);
+  transition: .4s;
+  
+}
+.margin_top {
+  margin-top: 100px;
+}
 
 
 
