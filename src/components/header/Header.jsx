@@ -7,13 +7,13 @@ const Header = () => {
     return(
             <div >
             <nav className="menu">
-                {/* <label className="logo">FERABOGADOS</label> */}
-                <img className="logo" src={logo} alt='FERABOGADOS' height='70' ></img> 
+                <a href="/"><img className="logo" src={logo} alt='FERABOGADOS' height='70' ></img> </a>
                 <ul className="menu_items">
-                    <li className="active"><a href="#start">inicio</a></li>
-                    <li><a href='#about'>acerca</a></li>
-                    <li><a href='#services'>servicios</a></li>
-                    <li><a href='#contact'>contactenos</a></li>
+                    <li className="active"><a href="/inicio">inicio</a></li>
+                    <li><a href='/acerca'>acerca</a></li>
+                    <li><a href='/servicios'>servicios</a></li>
+                    <li><a href='/contacto'>contactenos</a></li>
+                    
                 </ul>
             </nav>
             </div>
