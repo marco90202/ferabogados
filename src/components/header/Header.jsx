@@ -6,18 +6,18 @@ const Header = () => {
 
     return(
             <div >
-                <header className="clase-header">
-                    <img src={logo} alt='FERABOGADOS' height='150'></img>
-                    <nav>
-                        <ul className='nav'>
-                            <li className='nav_item'><a className='color-letra' href='https://www.google.com' >INICIO</a></li>
-                            <li className='nav_item'><a className='color-letra' href='www.youtube.com'>SERVICIOS</a></li>
-                            <li className='nav_item'><a className='color-letra' href='www.facebook.com'>CONTACTENOS</a></li>
-                        </ul>
-                    </nav>
-                </header>
-          
+            <nav className="menu">
+                <a href="/"><img className="logo" src={logo} alt='FERABOGADOS' height='70' ></img> </a>
+                <ul className="menu_items">
+                    <li className="active"><a href="/inicio">inicio</a></li>
+                    <li><a href='/acerca'>acerca</a></li>
+                    <li><a href='/servicios'>servicios</a></li>
+                    <li><a href='/contacto'>contactenos</a></li>
+                    
+                </ul>
+            </nav>
             </div>
+            
     )
 }
 export default Header

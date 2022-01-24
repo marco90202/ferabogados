@@ -6,7 +6,7 @@ const Body = () => {
 
     return(
         <div>
-            <Card></Card>
+           
         </div>
     )
 }

@@ -3,24 +3,101 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.menu {
+  background-color: #14547c;
+  height: 75px;
+  width: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #fff;
+  box-shadow: 5px 0 10px rgba(0,0,0,0.6);
+
+}
+
+.logo {
+  color: #fff;
+  font-size: 35px;
+  padding: 0 80px;
+  font-weight: bold; 
+}
+ 
+.menu_items {
+  display: flex;
+  list-style: none;
+  margin-right: 30px;
+}
+.menu_items li {
+  border-radius: 3px;
+  margin: 0 5px;
+}
+
+.menu_items li a{
+  padding: 7px 13px;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .clase-header {
   /* Stick to the top */
   position: sticky;
   top: 0;
   background:  #14547c;
+  width: 100%;
+  padding: 8px 16px
 }
+
+
+
+.nav-principal {
+  display: inline-block;
+  text-align: right;
+  width:20px;
+}
+  
+
 
 .nav {
   transition: background-color .5s;
   text-align: end;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
+
 
 .nav_item {
   list-style: none;
-  display: inline;
+  display: inline-block;
   background: #14547c;
-  padding-right: 5rem;
-  padding-left: 5rem;
+  padding: 25px;
+
 }
 
 .nav_item:hover {
@@ -32,8 +109,6 @@
 }
 
 
-
-
 .cards-list {
   z-index: 0;
   width: 100%;
@@ -41,13 +116,6 @@
   justify-content: space-around;
   flex-wrap: wrap;
 }
-
-
-
-
-
-
-
 
 
 .card {
@@ -64,32 +132,11 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .card .card_image {
   width: inherit;
   height: inherit;
   border-radius: inherit;
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -100,13 +147,6 @@
   border-radius: inherit;
   object-fit: cover;
 }
-
-
-
-
-
-
-
 
 
 .card .card_title {
@@ -168,3 +208,7 @@
   color: white;
   font-weight: bold;
 }
+
+
+
+
