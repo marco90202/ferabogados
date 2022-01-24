@@ -5,7 +5,6 @@ const Card = () => {
     /* LOGICA DE JAVASCRIPT */ 
 
     return(
-        
         <div>
             <div className="cards-list">
                 <div className="card">
