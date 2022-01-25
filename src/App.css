@@ -1,6 +1,8 @@
 .App {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  
 }
 
 .menu {
@@ -52,11 +54,73 @@
   background-color: rgba(0,0,0,0.3);
   transition: .4s;
   
-}
-.margin_top {
+} 
+
+.content {
+  width: 400px;
+  background: #14547c;
+  padding: 30px;
+  margin: auto;
   margin-top: 100px;
+  border-radius: 4px;
+  font-family: calibri;
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+  display: flex;
 }
 
+
+.formulario-1 h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.controls {
+  width: 90%;
+  background: #14547c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: calibri;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
+.box {
+  display: flex;
+}
+.box-1 {
+  display: flex;
+}
+
+.formulario-1 p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.formulario-1 a {
+  color: white;
+  text-decoration: none;
+}
+
+.formulario-1 a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.formulario-1 .botons {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
 
 
 
