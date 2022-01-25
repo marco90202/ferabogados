@@ -5,7 +5,7 @@ const Body = () => {
 
 
     return(
-        <div className="margin_top">
+        <div>
             <section id="start">
                 <h1>INICIO</h1>
                 
