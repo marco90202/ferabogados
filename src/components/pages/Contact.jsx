@@ -12,7 +12,7 @@ const Contact = () => {
             
             <body>
                 <section className='formulario-1'>
-                    <h2>Formulario Registro</h2>
+                    <h2>FORMULARIO REGISTRO</h2>
                            <div className='box'>
                             <input type="text" className='controls_2'placeholder='nombre' />
                             

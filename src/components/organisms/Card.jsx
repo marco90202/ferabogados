@@ -1,27 +1,27 @@
 import React from 'react' 
 
-const Card = () => { 
+const Card = ({texto_titulo , titulo_contenido , palabras_español}) => { 
 
-    /* LOGICA DE JAVASCRIPT */ 
-
-    return(
-        <div>
-            <div className="cards-list">
-                <div className="card">
-                    <div className="card_image">
-                        <img src="https://delgadoabogados.pe/wp-content/uploads/2021/08/logo-1-transparente.png"  alt="errorimg"  />
+    return (
+        <div className='container__card'>
+                            <div className='card__father'>
+                                <div className='card'>
+                                    <div className='card_front'>
+                                        <div className='body__card__front'>
+                                            <h1>{texto_titulo}</h1>
+                                        </div>
+                                        <div className='card__back'>
+                                            <div className='body__card__back'>
+                                                <h1>{titulo_contenido}</h1>
+                                                <p>{palabras_español}
+                                                </p>
+                                                    <input type='buton' value='leer mas'></input>
+                                            </div>
+                                        </div>
+                                </div> 
+                            </div>   
+                        </div>
                     </div>
-                        <div className="card_title title-black">
-                            <p>card title</p>
-                            </div>
-                            </div>
-                            <div className="container">
-                            <div className='front_card'>
-                            <p>Derecho civil patrimonial y extrapatrimonial</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    )
+   )
 }
 export default Card
