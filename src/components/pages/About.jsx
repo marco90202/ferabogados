@@ -1,14 +1,21 @@
-import React from 'react'
+import React from "react";
+import Card from "../organisms/Card"
 import Header from "../header/Header"
 
 const About = () => {
 
-
-
-    return(
-            <div>
-                <Header></Header>
-                estoy en about
-            </div>)
+return (
+        <div>
+        <Header></Header>
+        <Card 
+            texto_titulo={'titulo de card'} 
+            titulo_contenido={'Este es el subtitulo'}
+            palabras_español={"este es contenido"}
+            ></Card>
+                
+                    
+                        
+        </div>
+        )
 }
 export default About
