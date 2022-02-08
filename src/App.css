@@ -177,6 +177,7 @@ margin-top: 100px;
   
 }
 /* estilos para componente inicio */
+
 /* estilos para componente card */
 .container__card{
   max-width: 1200px;
@@ -193,22 +194,20 @@ margin-top: 100px;
   perspective: 1000px;
 }
 
-.card__father:hover .card{
+.card__father:hover .card {
   transform: rotateY(180deg);
 }
 
-.card{
+.card {
   width: 350px;
   height: 400px;
   position: relative;
   transform-style: preserve-3d;
   transition: all 600ms;
   margin: 30px auto;
-  
-  border-radius: 10px;
+  border-radius: 5px;
   border: 4px solid;
-
-  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22); 
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25);  
   cursor: pointer;
   
 } 
@@ -216,8 +215,20 @@ margin-top: 100px;
 .card__front{
   background-size: cover;
   background-position: center;
+  
+
 }
 
+.card__front img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.4);
+  border-radius: 20px; 
+  object-fit: cover;
+}
 
 .card__front,
 .card__back {
@@ -225,18 +236,19 @@ margin-top: 100px;
   height: 100%;
   position: absolute;
   top: 0;
-  left: 0;
-  backface-visibility: hidden;
+  left: 0; 
+  backface-visibility: hidden; 
   transform-style: preserve-3d;
+  
   border-radius: 20px;
-}
+} 
 
 .card__back{
   transform: rotateY(180deg);
-  background: white;
-}
+  background: white; 
+} 
 
-.body__card_front{
+.body__card_front {
   width: 100%;
   height: 100%;
   text-align: center;
@@ -244,32 +256,35 @@ margin-top: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: #fff; 
   transform: translateZ(60px);
+  
 }
 
-.bg{
+
+/* .body__card_front img{
   width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
   background: rgba(0,0,0,0.4);
-  border-radius: 20px;
-}
+  border-radius: 20px; 
+}  */
 
-.body__card__back{
+.body__card__back {
   padding: 40px;
   text-align: center;
   transform: translateZ(60px);
+  
 }
 
-.body__card__back p{
+.body__card__back p {
   margin-top: 30px;
   font-size: 18px;
 }
 
-.body__card__back input{
+.body__card__back input {
   padding: 10px 40px;
   margin-top: 30px;
   font-size: 16px;
@@ -288,57 +303,6 @@ margin-top: 100px;
 
 
 
-
-
-
-
-
-
-
-.nav-principal {
-  display: inline-block;
-  text-align: right;
-  width:20px;
-}
-  
-
-
-.nav {
-  transition: background-color .5s;
-  text-align: end;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-
-.nav_item {
-  list-style: none;
-  display: inline-block;
-  background: #14547c;
-  padding: 25px;
-
-}
-
-.nav_item:hover {
-  background:  #749ab4;
-}
-
-.color-letra {
-  color:white;
-}
-
-
-
-.container {
-  margin: 30px auto;
-  width: 300px;
-  height: 300px;
-  border: 2px solid;
-  border-radius: 5px;
-  background: #14547c;
-
-}
 
 
 

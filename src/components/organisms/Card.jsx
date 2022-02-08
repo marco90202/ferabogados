@@ -4,10 +4,14 @@ const Card = ({texto_titulo , titulo_contenido , palabras_español}) => {
 
     return (
         <div className='container__card'>
+
                             <div className='card__father'>
                                 <div className='card'>
+
                                     <div className='card_front'>
+
                                         <div className='body__card__front'>
+                                        
                                             <h1>{texto_titulo}</h1>
                                         </div>
                                         <div className='card__back'>
@@ -21,7 +25,9 @@ const Card = ({texto_titulo , titulo_contenido , palabras_español}) => {
                                 </div> 
                             </div>   
                         </div>
+                        
                     </div>
+                    
    )
 }
 export default Card
