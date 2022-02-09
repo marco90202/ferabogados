@@ -7,16 +7,18 @@ import Inicio from './components/pages/Inicio';
 import About from './components/pages/About'
 import Services from './components/pages/Services'
 import Contact from './components/pages/Contact'
+import Events from "./components/pages/Events"
 
 ReactDOM.render(
   <Router>
       <Routes>
         <Route path="/" element={<App/>}/>
         <Route path="/inicio" element={<Inicio/>}/>
-        <Route path="/acerca" element={<About/>}/>
+        <Route path="/nosotros" element={<About/>}/>
         <Route path="/servicios" element={<Services/>}/>
+        <Route path='/eventos' element={<Events/>}/>
         <Route path="/contacto" element={<Contact/>}/>
       </Routes>
   </Router>,
   document.getElementById('root')
-);
+)

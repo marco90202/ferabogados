@@ -10,8 +10,9 @@ const Header = () => {
                 <a href="/"><img className="logo" src={logo} alt='FERABOGADOS' height='70' ></img> </a>
                 <ul className="menu_items">
                     <li className="active"><a href="/inicio">inicio</a></li>
-                    <li><a href='/acerca'>acerca</a></li>
+                    <li><a href='/nosotros'>nosotros</a></li>
                     <li><a href='/servicios'>servicios</a></li>
+                    <li><a href=" /eventos">eventos</a></li>
                     <li><a href='/contacto'>contactenos</a></li>
                     
                 </ul>
