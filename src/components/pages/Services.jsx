@@ -7,8 +7,9 @@ const Services = () => {
 
     return(
         <div>
+            
             <Header></Header>
-            estoy en Services
+           
         </div>
     )
 }
