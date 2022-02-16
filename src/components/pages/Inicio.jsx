@@ -7,24 +7,8 @@ const Inicio = () => {
     return(
        
         <div className="inicio">
-         
            <Header></Header>
-           <div className="slider">
-         <ul>
-             <li>
-                 <img src="https://images.wallpapersden.com/image/download/line-light-background_aGVsZpSZmpqtpaSklGdqa2WtZmtlZQ.jpg" alt='img1'/>
-             </li>
-             <li>
-                 <img src="assets/images/img2.jpg" alt=''/>
-             </li>
-             <li>
-                 <img src="assets/images/img3.jpg" alt=''/>
-             </li>
-             <li>
-                 <img src="assets/images/img4.jpg" alt=''/>
-             </li>
-         </ul>
-     </div>
+                    
            <div className='cuerpo-all'>
                 <h1>Ferabogados Gestion Publica y Empresarial</h1>
                 <p>El ICJ es un Instituto de Educación Superior Tecnológico “ICJ Gestión Pública y Empresarial”, autorizado mediante Resolución Ministerial 451 -2016 – MINEDU que brinda programas de estudios profesionales técnicas y programas de formación continua que la sociedad requiera en el ámbito jurídico y empresarial.</p>
