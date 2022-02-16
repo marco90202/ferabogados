@@ -1,5 +1,5 @@
 import React from 'react' 
-import Card from '../organisms/Card'
+// import Card from 'organisms/Card'
 
 const Body = () => {
 
@@ -40,22 +40,7 @@ const Body = () => {
             </section>
             <section id="start">
                 <h1>INICIO</h1>
-                
-            </section>
-            <section id="start">
-                <h1>INICIO</h1>
-                
-            </section>
-            <section id="start">
-                <h1>INICIO</h1>
-                
-            </section>
-            <section id="start">
-                <h1>INICIO</h1>
-                
-            </section>
-            <section id="start">
-                <h1>INICIO</h1>
+            
                 
             </section>
             <section id="start">

@@ -1,5 +1,6 @@
 import React from 'react' 
 import Header from "../header/Header"
+import Footer from "../footer/Footer"
 
 const Contact = () => {
 
@@ -37,6 +38,9 @@ const Contact = () => {
                         
                 </section>
             </body>
+
+            <Footer></Footer>
+
         </div>          
             
         
