@@ -7,11 +7,11 @@ const Contact = () => {
 
 
     return(
-        <div className='content'>
+        <div>
             
             <Header></Header>
             
-            <body>
+            <div className='content'>
                 <section className='formulario-1'>
                     <h2>FORMULARIO REGISTRO</h2>
                            <div className='box'>
@@ -19,10 +19,10 @@ const Contact = () => {
                             
                             <input type="text" className='controls_2'placeholder='apellido'/>
                              </div>
-                             <div classNamme='box'>
+                             <div className='box'>
                             <input type="email" className='controls_1'placeholder='correo electronico'/>
                             </div>
-                            <div classNamme='box'>
+                            <div className='box'>
                             <input type="tel" className='controls_1'placeholder='telefono'/>
                             </div>
                             <div className='box'>
@@ -30,14 +30,14 @@ const Contact = () => {
                             
                             <input type="text" className='controls_2'placeholder='cargo'  />
                            </div>
-                           <div classNamme='box'>
+                           <div className='box'>
                             <textarea rows='5' cols='10' className='controls_1'placeholder='mensaje'/>
                             </div>
                             <p>Estoy de acuerdo con <a href="/">Terminos y Condiciones</a></p>
                             <input type="submit"  className='botons'value='registrar' />
                         
                 </section>
-            </body>
+            </div>
 
             <Footer></Footer>
 

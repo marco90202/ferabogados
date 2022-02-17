@@ -7,16 +7,18 @@ const Footer = () => {
     return(
         <footer>
             <div className="pie">
-                <nav className="menu_b">
+            <nav className="pie_item">
                     <a href="/"><img className="logo" src={logo} alt='FERABOGADOS' height='70'></img> </a>
-                    <p>Pie de página</p>
-                    <p>Texto 1</p>
-                    <p>Texto 2</p>
-                    <p>Texto 3</p>
-                    <p>Texto 4</p>
-                    <p>Texto 5</p>
+                    <ul>
+                        <li>liie de liágina</li>
+                        <li>Texto 1</li>
+                        <li>Texto 2</li>
+                        <li>Texto 3</li>
+                    </ul>
+                    
 
                 </nav>
+
             </div>
         </footer>
     )

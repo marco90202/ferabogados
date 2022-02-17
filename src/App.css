@@ -6,8 +6,7 @@
 
 .menu {
   background-color: #14547c;
-  height: 75px;
-  width: 100;
+  height: 90px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -60,11 +59,10 @@
   margin: auto;
   margin-top: 100px;
   border-radius: 4px;
-  font-family: calibri;
+  /* font-family: calibri; */
   color: white;
   box-shadow: 7px 13px 37px;
   display: flex;
-  padding-bottom: 30px;
 }
 
 .formulario-1 h2 {
@@ -144,23 +142,24 @@
 }
 /* estilos para componente inicio */
 .inicio {
-  background: #76b2eb;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
 }
 
 .cuerpo-all {
 width: 100%;
 max-width: 1000px;
 margin: auto;
-padding: 60px;
+padding: 90px;
 background: white;
 margin-top: 100px;
 }
 
 .cuerpo-all h1 {
-  text-align: right;
+  text-align: center;
   padding-right: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
 }
 .cuerpo-all p {
   font-size: 18px;
@@ -182,8 +181,11 @@ margin-top: 100px;
 }
 
 .text p {
-  text-align: auto;
+  text-align:left;
 }
+
+
+
 /* estilos para componente inicio */
 
 /* estilos para componente card */
@@ -312,22 +314,58 @@ margin-top: 100px;
   box-shadow: 1px 1px 20px 5px #e6520e;
 }
 
+.slider{
+  margin-top: 65px;
+  /* margin: auto; */
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    padding: 0;
+    animation: cambio 20s infinite alternate linear;
+   width:400%; 
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+    width: 100%;
+    height: 100%;
+}
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+    
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+    
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+    
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+ 
 
 .pie {
-  height:70px;
-  line-height:50px;
-  background:#14547c;
-  color:white;
-  text-align:left;
-  position:fixed;
-  bottom:0;
-  left:0;
+  height:auto;
   width:100%;
-  display: flex;
-  justify-content: space-between;
-  box-shadow: 5px 0 10px rgb(0,0,0/60%);
-  z-index: 99;
+  background:#14547c;
+  color:#fff;
+  margin-top: 10px;
 }
 
+.pie_item ul{
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+
+.pie_item ul li {
+  list-style: none;
+}
 
 
