@@ -8,15 +8,14 @@ const Footer = () => {
         <footer>
             <div className="pie">
             <nav className="pie_item">
-                    <a href="/"><img className="logo" src={logo} alt='FERABOGADOS' height='70'></img> </a>
+                    <aside><a href="/"><img className="logo" src={logo} alt='FERABOGADOS' height='70'></img></a><br /><hr />
+                    <br />
                     <ul>
-                        <li>liie de liágina</li>
-                        <li>Texto 1</li>
-                        <li>Texto 2</li>
-                        <li>Texto 3</li>
+                        <a><li>Sector II Grupo I. Mz C Lt 19</li></a><br />
+                        <a href='mailto:dialogolaboralperu@gmail.com'><li>dialogolaboralperu@gmail.com</li></a><br />
+                        <a href='tel:015554444'><li>(01) 555-4444</li></a>
                     </ul>
-                    
-
+                    </aside>
                 </nav>
 
             </div>

@@ -33,7 +33,7 @@ const Contact = () => {
                            <div className='box'>
                             <textarea rows='5' cols='10' className='controls_1'placeholder='mensaje'/>
                             </div>
-                            <p>Estoy de acuerdo con <a href="/">Terminos y Condiciones</a></p>
+                            <p><input type="checkbox"></input> Estoy de acuerdo con <a href="/">Terminos y Condiciones</a></p>
                             <input type="submit"  className='botons'value='registrar' />
                         
                 </section>
