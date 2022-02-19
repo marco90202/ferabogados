@@ -8,7 +8,7 @@ const Footer = () => {
         <footer>
             <div className="pie">
             <nav className="pie_item">
-                    <aside><a href="/"><img className="logo" src={logo} alt='FERABOGADOS' height='70'></img></a><br /><hr />
+                    <aside><a href="/"><img className="logo" src={logo} alt='FERABOGADOS' height='70'></img></a><br />
                     <br />
                     <ul>
                         <li>Sector II Grupo I. Mz C Lt 19</li>
@@ -22,7 +22,9 @@ const Footer = () => {
                     <h5>ENVÍE SUS CONSULTAS</h5>
                     <ul>
                     <p>En este espacio usted puede hacer una consulta administrativa, técnica o académica. Usted puede preguntar al tutor, docente , área de certificados, ventas e incluso al director del instituto.</p>
+                    <nav className='boton'>
                     <button class="btn_footer">CONSULTE AQUI</button>
+                    </nav>
                     </ul>
                 </nav>
                 <nav className='pie_item3'>

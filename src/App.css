@@ -355,26 +355,23 @@ margin-top: 100px;
   background:#14547c;
   color:#fff;
   margin-top: 30px;
-  border-color: yellow;
-  border-style: solid;
-  float: inline-start;
+  position: relative;
 }
 
 .pie_item {
   width: 350px;
-  height:auto;
   display: inline-block;
-  border-color: red;
-  border-style: solid;
-
+  float: left;
+  margin-top:50px;
 }
 
 .pie_item2 {
   width: 350px;
   height:auto;
   display: inline-block;
-  border-color: red;
-  border-style: solid;
+  text-align: justify;
+  padding-right: 10px;
+  margin-left: 120px;
 }
 
 .pie_item3 {
@@ -382,8 +379,7 @@ margin-top: 100px;
   height:auto;
   display: inline-block;
   text-decoration:none;
-  border-color: red;
-  border-style: solid;
+  float: right;
 }
 
 .pie_item3 ul li{
@@ -409,5 +405,9 @@ a:link, a:visited, a:active {
 }
 
 .pie h5{
+  text-align: center;
+}
+
+.boton {
   text-align: center;
 }
